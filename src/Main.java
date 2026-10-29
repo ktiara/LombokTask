@@ -4,19 +4,17 @@ public class Main {
 
 
         CarData car1 = new CarData(
-                "GLE", "Mercedes", 2020, 350000, "white", 5
+                "New", "Tesla", 2020, 350000, "White", 8
         );
 
         CarData car2 = new CarData(
-                "GLC", "Mercedes", 2023, 200000, "silver", 3
+                "New", "Tesla", 2023, 202300, "Grey", 2
         );
 
         System.out.println(car1);
         System.out.println(car2);
 
         System.out.println(car1.getColor());
-
-//            int year = car1.getYear();
 
         car1.setColor("black");
 
